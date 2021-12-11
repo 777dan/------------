@@ -34,7 +34,7 @@ function play(values) {
             newValues[j] = card;
         }
         alert(card);
-        if (card = "Q") {
+        if (card == "Q") {
             if (turn % 2 != 0) {
                 alert("You won!");
                 alert(newValues);
